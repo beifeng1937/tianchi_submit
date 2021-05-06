@@ -1,6 +1,6 @@
 ## 文件说明
 
-- code : 存放所有相关代码的文件夹
+- tianchi_submit_demo : 存放所有相关文件的文件夹
 
   - train_data : 存放原始数据文件 guangdong1_round2_train2_20191004_Annotations  guangdong1_round2_train2_20191004_images
   - tcdata: 存放官方测试数据文件，docker 提交后会自动生成
@@ -31,6 +31,6 @@
 
 ## 思路说明
 
--本方案采用了yolov5作为baseline
+-采用了yolov5作为baseline
 -数据处理：滑动窗口分割训练图片
 
